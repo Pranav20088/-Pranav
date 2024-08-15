@@ -28,3 +28,16 @@ if AVG < 25:
     print("Student failed")
 else:
    print("student passed")
+
+AGE CODE
+age=int(input("Please enter your age:"))
+if age < 18:
+    print("you are  eligible")
+    Id=int(input("Please enter your ID:"))
+    Nam=input("Please enter your Name:")
+    Cla=int(input("Please enter your Class:"))
+    Sec=input("Please enter you Section:")
+    print("You are verified\nRefresh the page")
+else:
+    print("you are not eligible")
+    print("Please exit the tab")
